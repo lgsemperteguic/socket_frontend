@@ -57,7 +57,7 @@ export class DrawComponent implements OnInit, AfterViewInit{
       x: res.clientX - rect.left,
       y: res.clientY - rect.top
     };
-    console.log(prevPos);
+    // console.log(prevPos);
     this.writeSingle(prevPos);
   }
 
